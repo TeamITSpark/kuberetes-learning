@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: tomcat-container-nautilus
-          image: gcr.io/kodekloud/centos-ssh-enabled:tomcat
+          image: tomcat:latest
           ports:
             - containerPort: 8080
 
