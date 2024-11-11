@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: tomcat-container-nautilus
-          image: mahesh3267/its-sample-webapp:bd51f4d
+          image: mahesh3267/its-sample-webapp:develop
           ports:
             - containerPort: 8080
 
