@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: tomcat-container-nautilus
-          image: mahesh3267/sample-webapp:latest
+          image: mahesh3267/its-sample-webapp:bd51f4d
           ports:
             - containerPort: 8080
 
@@ -52,4 +52,4 @@ spec:
       targetPort: 8080
       # Optional field
       # By default and for convenience, the Kubernetes control plane will allocate a port from a range (default: 30000-32767)
-      nodePort: 32250
+      nodePort: 32251
